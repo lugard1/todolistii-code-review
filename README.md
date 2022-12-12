@@ -23,7 +23,7 @@ After you're finished please remove all the comments and instructions!
 -->
 
 <div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
+
   <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
@@ -39,29 +39,26 @@ After you're finished please remove all the comments and instructions!
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
+  - [🚀 Live Demo ](#-live-demo-)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
   - [Install](#install)
   - [Usage](#usage)
-  - [Run tests](#run-tests)
   - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 [TO DO LIST] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
+> Description
 
-**[your_project__name]** is a...
+**[ToDo-Listii]** is a to do list project, which is based on adding list of array objects dynamically to the html with the help of webpack and DOM manipulations.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -94,11 +91,11 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
+> Description of key features of the application.
 
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **[Input field]**
+- **[Static Display placeholder]**
+- **[Checkboxes and refresh icon]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -106,9 +103,14 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
+Please use the following link to access the website:
+- [Live Demo Link](https://lugard1.github.io/todo-listii/)
 
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+<div align="center">
+
+  <br/>
+
+</div>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -123,6 +125,9 @@ To get a local copy up and running, follow these steps.
 ### Prerequisites
 
 In order to run this project you need:
+- Visual Studio Code or amy other equivalent code editor
+- Knowledge in HTML, CSS, Javascript and Github
+- An internet connection.
 
 <!--
 Example command:
@@ -135,6 +140,7 @@ Example command:
 ### Setup
 
 Clone this repository to your desired folder:
+git clone 'repo url'
 
 <!--
 Example commands:
@@ -148,6 +154,8 @@ Example commands:
 ### Install
 
 Install this project with:
+- Git Bash
+
 
 <!--
 Example command:
@@ -161,6 +169,8 @@ Example command:
 ### Usage
 
 To run the project, execute the following command:
+- npm run build
+- npm run start
 
 <!--
 Example command:
@@ -170,21 +180,10 @@ Example command:
 ```
 --->
 
-### Run tests
-
-To run tests, run the following command:
-
-<!--
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
-
 ### Deployment
 
 You can deploy this project using:
+- GitHub Pages
 
 <!--
 Example:
@@ -194,39 +193,19 @@ Example:
 ```
  -->
 
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
 
-## 👥 Authors <a name="authors"></a>
-
-> Mention all of the collaborators of this project.
-
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+## 👤 Author <a name="authors"></a>
+- GitHub: [@lugard1](https://github.com/lugard1)
+- Twitter: [@Dsn3kings](https://twitter.com/Dsn3kings)
+- LinkedIn: [Lugard Agu](https://linkedin.com/in/linkedinhandle)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FUTURE FEATURES -->
 
-## 🔭 Future Features <a name="future-features"></a>
-
-> Describe 1 - 3 features you will add to the project.
-
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
 
@@ -242,9 +221,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
-If you like this project...
+>If you like this project give us a star ⭐️
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -252,27 +229,9 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
-
-I would like to thank...
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FAQ (optional) -->
-
-## ❓ FAQ <a name="faq"></a>
-
-> Add at least 2 questions new developers would ask when they decide to use your project.
-
-- **[Question_1]**
-
-  - [Answer_1]
-
-- **[Question_2]**
-
-  - [Answer_2]
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+> I would like to thank all those that inspired the success of this project.
+- OscarFMDev
+- Prantosh Biswas
 
 <!-- LICENSE -->
 
