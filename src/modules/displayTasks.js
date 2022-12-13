@@ -1,5 +1,5 @@
 import {
-  addTask, checkBoxesStatus, deleteTask, edit,
+  addTask, checkBoxesStatus, deleteTask, editTask,
 } from './functionality.js';
 import addObjToLocalStorage from './objectToLS.js';
 import { store, taskArray } from './store.js';
@@ -77,20 +77,20 @@ const displayTasks = () => {
     window.location.reload();
   });
 
-  for (let i = 0; i < allCheckBoxes.length; i += 1) {
-    allCheckBoxes[i].addEventListener('change', (e) => {
+  allCheckBoxes.forEach((i) => {
+    i.addEventListener('change', (e) => {
       checkBoxesStatus(e);
       displayTasks();
     });
-  }
+  })
 
   /* Edit */
   const taskTexts = document.querySelectorAll('p');
-  for (let i = 0; i < taskTexts.length; i += 1) {
-    taskTexts[i].addEventListener('click', (e) => {
-      edit(e);
+  taskTexts.forEach((i) => {
+    i.addEventListener('click', (e) => {
+       editTask(e);
     });
-  }
+  })
 
   /* Delete all */
   const deleteAll = document.querySelector('.reload-icon');

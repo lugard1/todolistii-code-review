@@ -31,7 +31,7 @@ const deleteTask = (e) => {
   }
 };
 
-const edit = (e) => {
+const editTask = (e) => {
   const editableText = e.target;
   const editableTask = editableText.closest('li');
   const taskIndex = editableTask.dataset.indexNumber;
@@ -68,7 +68,7 @@ const checkBoxesStatus = (e) => {
 
 export {
   addTask,
-  edit,
+  editTask,
   deleteTask,
   tasksContainer,
   taskName,

@@ -1,12 +1,12 @@
 import { store, taskArray } from './store.js';
 
 const addObjToLocalStorage = (value) => {
-  const object = {
+  const task= {
     description: value,
     completed: false,
     index: taskArray.length,
   };
-  taskArray.unshift(object);
+  taskArray.unshift(task);
   store();
 };
 
