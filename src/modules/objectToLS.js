@@ -1,7 +1,7 @@
 import { store, taskArray } from './store.js';
 
 const addObjToLocalStorage = (value) => {
-  const task= {
+  const task = {
     description: value,
     completed: false,
     index: taskArray.length,

@@ -82,15 +82,15 @@ const displayTasks = () => {
       checkBoxesStatus(e);
       displayTasks();
     });
-  })
+  });
 
   /* Edit */
   const taskTexts = document.querySelectorAll('p');
   taskTexts.forEach((i) => {
     i.addEventListener('click', (e) => {
-       editTask(e);
+      editTask(e);
     });
-  })
+  });
 
   /* Delete all */
   const deleteAll = document.querySelector('.reload-icon');
